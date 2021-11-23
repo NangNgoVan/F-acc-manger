@@ -1,0 +1,33 @@
+{
+  "name": "f-tool",
+  "version": "1.0.0",
+  "description": "ftool",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chart.js": "^3.2.1",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "geoip-country": "^4.0.67",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "next": "^10.2.0",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^16.13.1",
+    "react-notifications": "^1.7.2",
+    "swr": "^0.5.5",
+    "uglify-js": "^3.13.4"
+  },
+  "author": "nangnv264",
+  "license": "ISC",
+  "devDependencies": {}
+}
